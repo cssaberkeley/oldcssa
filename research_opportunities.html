@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CSSA</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58935361-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("assets/header.html", function(data){
+            $("#header-placeholder").replaceWith(data);
+        });
+    </script>
+    
+    <script>
+        $.get("assets/footer.html", function(data){
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header-placeholder"></div>
+
+
+        <section>
+            <div class="row">
+                <div class="col-sm-4 col-md-5 col-lg-4">
+                    <h1 class="center">Current Opportunities</h1>
+                </div>
+
+                <div class="col-sm-8 col-md-7 col-lg-8">
+                    <ul class="nav nav-tabs" role="tablist" style="margin-top: 10px">
+                        <li class="col-ss-6 center"><a href="research.html">Research Overview</a></li>
+                        <li class="col-ss-6 center"><a href="faculty.html">Cog Sci Faculty</a></li>
+                        <li class="col-ss-6 center"><a href="thesis.html">Honors Thesis Archive</a></li>
+                        <li class="active col-ss-6 center"><a href="research_opportunities.html">Opportunities</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="row offset3" id="opportunities">
+                <p class="center">We will try to update these listings on a weekly basis. The opportunities are listed by posting date from newest to oldest.</p>
+                <br>
+                <h3><b>Have a open position you want to see posted on this page?</b> Please submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2y59tyIe0U00ryDW1MtKkqm5ImiL64f3r5JX1R4NxlmV5dA/viewform">this form</a> or email cssa@ocf.berkeley.edu.</h3>
+                <!-- Separating Double Lines -->
+                <div style="padding-bottom:20px; margin-bottom: 2px; border-bottom: 2px solid"></div>
+                <div style="padding-bottom:20px; border-top: 2px solid"></div>
+
+                <!--
+                <div class="row">
+                    <h1 class="center">I am looking for...</h1>
+                    <ul class="nav nav-pills nav-justified">
+                      <li><a href="#at_berkeley">At UC Berkeley</a></li>
+                      <li><a href="#outside_berkeley">Outside of UC Berkeley</a></li>
+                    </ul>
+                     <p></p>
+                </div>
+                -->
+
+                <div class="row offset1" id="at_berkeley">
+                    <h1 class="center"> At UC Berkeley</h1>
+                    <div>
+                        <ul style="list-style-type: none; padding-left:0">
+                            <li>Join our <a href="https://berkeleycssa.slack.com"> Slack </a> #research Channel for updates and the fastest inside scoop on positions.</li>
+                            <li>Join our <a href=https://docs.google.com/forms/d/1cWtqkJAJ_jyBB1fcyDm3otHfmzVjOfuhMJomZ7jb84Y/viewform?edit_requested=true>mailing list for updates on research postings.</a></li>
+                            <li> Check out the Psychology Department collection of current <a href="https://psychology.berkeley.edu/students/undergraduate-program/independent-study">Psych Research Assistant Postings.</a></li>
+
+                            <!--<li> <!--Opportunity #knight: Aug 17
+                                    <div class="drop-content col-md-12">
+                                        <a data-toggle="collapse" href="#whitney"> 
+                                            <h2>Open RA Positions <i class="icon-chevron-down"></i></h2>
+                                            <p>Representation of science in the media<p>
+
+                                                    <p>The goal of this research project is to understand how scientific findings - beginning with but not limited to psychology and cognitive science - are reported and understood by laypeople, journalists, and researchers. Through online studies, we will test what participants can remember about findings they have read about, what kinds of sources are deemed credible, and if there are findings more frequently mentioned than others.<p>
+
+                                                    <p>Student researchers will work closely with one graduate student in Cognition and two postdoctoral researchers. For this project, applicants should be either already proficient or interested in the design of semi-automated online experiments using Qualtrics and Amazon's Mechanical Turk. Responsibilities will also include searching for, reading, and coding academic papers and news articles about various scientific findings.<p> 
+                                                <p>Qualifications<p>
+
+                                                 <p>FIVE REQUIRED SKILLS: 1) A strong computational background. 2) Experience programming in Python or R (preferably using jupyter notebooks). 3) Experience with statistics and/or machine learning. 4) A strong interest in cognitive science or scientific communication. 5) Strong attention to detail.<p> 
+                                                    <p>In your application, please also specify whether you are able to continue working in the fall and/or the following spring or summer. ADDITIONAL PREFERRED EXPERIENCE (NOT REQUIRED): 1) Experience in another scientific domain. 2) Having taken "Computational Models of Cognition". 3) Experience with Adobe InDesign, LaTeX, and data visualization.<p>
+
+                                                    <p>How to apply: submit an application through URAP (http://urapprojects.berkeley.edu/) to the lab of Tom Griffiths (Computational Models of Cognition) and mention your interest in this specific project. If you have any questions or concerns, email racheljansen@berkeley.edu.<p>
+
+                                                    </p><i>/i></p>
+                                            <p>Posted Jan 8, 2017</p>                                     
+                                        </a>
+
+                                        <div id="whitney" class="collapse">
+                                            <div class="col-md-6"> <!--Long Descriptions
+                                                <p> 
+
+                                                <h3>Responsibilities</h3>
+                                                <ul>
+                                                    <li>Scheduling subjects.</li>
+                                                    <li>Collecting and analyzing electroencephalography (EEG) data</li>
+                                           
+                                                </ul>
+
+                                                <h3> Qualifications </h3>   
+                                                <ul> 
+                                                    <li>P FIVE REQUIRED SKILLS: 1) A strong computational background. 2) Experience programming in Python or R (preferably using jupyter notebooks). 3) Experience with statistics and/or machine learning. 4) A strong interest in cognitive science or scientific communication. 5) Strong attention to detail. 
+                                                    In your application, please also specify whether you are able to continue working in the fall and/or the following spring or summer. ADDITIONAL PREFERRED EXPERIENCE (NOT REQUIRED): 1) Experience in another scientific domain. 2) Having taken "Computational Models of Cognition". 3) Experience with Adobe InDesign, LaTeX, and data visualization.
+
+                                                    How to apply: submit an application through URAP (http://urapprojects.berkeley.edu/) to the lab of Tom Griffiths (Computational Models of Cognition) and mention your interest in this specific project. If you have any questions or concerns, email racheljansen@berkeley.edu. </li>
+                                                </ul>   
+
+                                                               
+                                            </div>
+
+                                            <div class="col-md-6"> <!--Quickfacts list
+                                                           
+                                                <p><b>Contact: </b> Lisa Johnson at eljohnson@berkeley.edu & Ignacio Saez at isaez@berkeley.edu</p>
+                                                <p><b>How to apply: </b>If interested, please submit your CV/Resume to both Lisa and Ignacio.</p>
+                                                <p><b>Deadline: </b>Until filled</p>                       
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                -->
+
+                       
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Separating Double Lines -->
+                <div style="padding-bottom:20px; margin-bottom: 2px; border-bottom: 2px solid"></div>
+                <div style="padding-bottom:20px; border-top: 2px solid"></div>
+
+                <div id="outside_berkeley">
+
+                    <h1 class="center">Outside of UC Berkeley</h1>
+                       
+                    <h2 class="center">Stay tuned!</h2>
+
+
+                    <ul style="list-style-type: none; padding-left:0">
+
+                    <!-- ***************START TEMPLATE (after copy/paste delete all the <!-- )************************************* -->
+
+                    <!--
+                        <li><div class="drop-content col-md-12"> <!--Opportunity #6: Jan 3-->
+                    <!--
+                            <a data-toggle="collapse" href="#opp6"> 
+                                <h2> Two Post-doc Adaptation Physiology Positions <i class="icon-chevron-down"></i></h2>
+                                <p><i>Air Force Research Lab</i></p>
+                                <p>Posted Jan 3, 2017</p>
+                            </a>
+
+                            <div id="opp6" class="collapse">
+                                <div class="col-md-6"> <!--Long Descriptions-->
+                    <!--
+                                    <h3> Description </h3>
+                                    <p> Two post-doc research opportunities are available with the 711th Air Force Research Lab - Human Performance Wing (AFRL-HPW), located in Dayton, OH.  U.S. Citizenship is REQUIRED.  This opportunity includes, but is not limited to, the following:
+
+                                    This opportunity supports the Air Force Research Labs research efforts in advancing our understanding of the biological mechanisms of human performance. The overarching scientific question that drives our research is the following: "How do individuals adapt and what are the biological mechanisms that facilitate adaptation?". This research explores how environmental conditions (stress, exercise, diet, electroceuticals) interact with biological mechanisms to modulate physiological functions. We utilize a variety of techniques (e.g. immunohistochemistry, neurobehavioral assays, brain stimulation, behavioral genetics models, sequencing, bioinformatics) to advance our understanding in this area. The integration of these methods allows us to tackle challenging problems that require multiple skill sets, various disciplines and creative approaches. The primary projects include: 1) the biological signatures of performance; and 2) the biological mechanisms of brain modulation. The first of these projects is focused on the identification of novel biological signatures that are predictive of stress resilience/susceptibility and adaptability. The second project is focused on the identification of the neurobiological pathways by which non-invasive electroceuticals (e.g. transcranial direct current stimulation; tDCS) affect the brain and impact behavior. One of the exciting parts about this work is that brain stimulation is able to induce adaptation factors that result in enhanced synaptic plasticity, giving us an experimental model to test local adaptation mechanisms within the brain that are critical for human performance. Both projects involve rodent models and can involve translational research in human subjects. This position will support current efforts and will also be involved with the design of new experiments to advance the research mission of the Air Force Research Laboratory. Applicants are expected to have a strong background in physiology and research experience in endocrinology, neuroscience and/or molecular biology is preferred. Characteristic duties and responsibilities are listed below.</p> 
+
+                                    <h3> Responsibilities </h3>
+                                    <p>
+                                        <b>Primary Responsibilities</b>
+                                        <ul>
+                                            <li>Design and lead the execution of research studies.</li>
+                                            <li>Propose new research ideas to advance ongoing research projects.</li>
+                                            <li>Complete wet lab experiments and acquire new techniques and skills to support research team efforts (e.g. RNAseq, synaptoneurosome isolations, exosome characterizations).</li>
+                                            <li>Analyze data, prepare figures and write manuscripts, proposals, protocols and presentations.</li>
+                                        </ul>
+                                        <b>Additional Responsibilities</b>
+                                        <ul>
+                                            <li>Assist with current ongoing research efforts (animal/human studies, wet lab procedures).</li>
+                                            <li>Conduct literature reviews.</li>
+                                            <li>Teach lab techniques and procedures to others.</li>                                
+                                        </ul>
+                                    </p>                           
+
+                                    <h3> Qualifications </h3>
+                                    <p> <b>Education:</b>PhD - Graduate <br><br>
+                                    Applicants are expected to have a strong background in physiology and research experience in endocrinology, neuroscience and/or molecular biology is preferred.Applicants should have recently completed a degree within five years of the desired starting date in or related discipline, or will be able to complete of all requirements for the degree within six months of the starting date.</p>
+
+                                    <h3> Additonal Info </h3>
+                                    <p> 
+                                    <b>Project ID:</b>AFRL-1144278543</p>
+                                    <p><b>All opportunities posted are ongoing.</b><br> The Research Participation Program for the U.S. Air Force Research Laboratory (USAFRL) provides opportunities to participate in USAFRL on-going applied research and development projects. USAFRL is the Air Force's only organization wholly dedicated to leading the discovery, development, and integration of war-fighting technologies for our air, space and cyberspace forces. It is a full-spectrum laboratory, providing leading-edge war-fighting capabilities responsible for planning and executing the Air Force' science and technology program. The Air Force Research Laboratory (AFRL) leads a worldwide government, industry and academia partnership in the discovery, development, and delivery of a wide range of revolutionary technology. Project areas include: war-fighter skill development and training, training simulation, information display and decision support, crew system design technologies, directed energy bio-effects, toxic hazards effects, crew protection, and logistician effectiveness. All Science Engineering and & Technology disciplines are welcomed.
+                                    </p>
+                                    <p><b>BENEFITS OF PARTICIPATING IN THE ORISE PROGRAM</b><br>Selected Fellows/Researchers will have the opportunity to perform research on topics of interest to the U.S. Government and to interact with leading scientists performing research and/or advising at the sponsor. The extensive partnering relationships with universities and other government agencies will expose participants to a broad research community. Program participants will have the opportunity to meet government decision-makers and learn directly from them about the role of scientific research in addressing complex, real-world (i.e., operational) needs. Furthermore, fellows have the opportunity to learn how research products transition from the proof-of-concept stage to integrated production systems. Other benefits may include the following: 
+                                    <ul>
+                                        <li>Stipend Payments</li>
+                                        <li>Health Insurance</li>
+                                        <li>Inbound Relocation/Dislocation</li>
+                                        <li>Training & Travel</li>
+                                    </ul>
+                                    </p>
+                                    <p><b>ELIGIBILITY REQUIREMENTS</b><br>Applicants should have recently completed a degree within five years of the desired starting date in or related discipline, or will be able to complete of all requirements for the degree within six months of the starting date. Other applicants will be considered on a case-by-case basis. The program is open to all qualified U.S. citizens without regard to race, sex, religion, color, age, physical or mental disability, national origin, or status as a Vietnam era or disabled veteran. 
+                                    </p>
+                                    <p><b>APPLICATION</b><br>Applications are accepted and reviewed on an ongoing basis. Selections are made as openings occur throughout the year. A complete application includes: profile, two references, and transcripts for all degrees earned and/or currently attending.
+                                    </p>
+                                    <p><b>GENERAL INFORMATION</b><br>The participants will be selected based on academic records, recommendations, applied research interests and compatibility of background with applied research programs and projects at the host Installation. The initial appointment is typically for one year and may be renewed for up to four additional years based upon recommendation of the host installation and subject to availability of funds. The participant will receive a monthly stipend which is determined based upon level of education, training, and experience. Inbound travel and moving expenses are reimbursed according to established policies. Travel and other costs will also be reimbursed for training related to the project and approved by ORAU and the host installation. The participant must show proof of health and medical insurance. Health plans are available through the ORAU for Postgraduate Internship participants.
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6"> <!--Quickfacts list--> 
+                    <!--                                      
+                                    <p><b>Contact:</b>Mike Janney at michael.janney@orau.org</p>
+                                    <p><b>How to apply:</b> Via <a href="https://www.pcrecruiter.net/pcrbin/reg5.aspx?r=p0BybwshUK9BB59xqJXgjioqF8VyXyMf/LOBrQiV0lfVPVUR8np3HWlUiOdtOHNSNCkGkZvmWlYKhB5bOMOMbpoK">this link to the official job posting</a> or visit <a href="www.orau.org/maryland">www.orau.org/maryland</a></p>
+                                    <p><b>Location:</b> Wright-Patterson AFB, OH</p>
+                                    <p><b>Deadline:</b> None given</p>                      
+                                </div>
+                            </div>
+                        </div></li>
+                    -->
+                    <!-- ***************END TEMPLATE (after copy/paste delete all the <!-- )************************************* -->
+                      
+                    </ul>
+                </div>
+
+<!--                 <div class="drop-content col-md-12">  
+                    <a data-toggle="collapse" href="#opp2"> 
+                        <h2> Title <i class="icon-chevron-down"></i></h2>
+                        <p><i>Lab group name</i></p>
+                        <p>Posted</p>
+                    </a>
+
+                    <div id="opp2" class="collapse">
+                        <div class="col-md-6"> <!--Long Descriptions--> <!--
+                            <h3> Description </h3>
+                            <p> Description here </p> 
+
+                            <h3> Responsibilities </h3>
+                            <p> Responsibilities here </p>
+
+                            <h3> Qualifications </h3>
+                            <p> Qualifications here </p>
+
+                            <h3> Additonal Info </h3>
+                            <p> Additonal Info here </p>
+                        </div>
+
+                        <div class="col-md-6"> <!--Quickfacts list--> 
+                        <!--                           
+                            <p><b>Contact: </b></p>
+                            <p><b>How to apply: </b></p>
+                            <p><b>Location: </b></p>
+                            <p><b>Deadline: </b></p>
+                            <p><b>Date posted: </b></p>                        
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </section>
+
+        <div id="buffer"></div>
+
+        <div id=footer-placeholder></div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

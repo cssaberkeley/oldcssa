@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<?php include("includes/head.php"); ?>
+
+</head>
+
+<body>
+<div id="containerbg">
+<?php include("includes/bordertop.php"); ?>
+
+<div id="containerCCSC_abstracts">
+
+<?php include("includes/header.php"); ?>
+           
+   
+
+  </div>
+
+ 
+
+
+
+ 
+<iframe
+src="http://cssa.berkeley.edu/ccsc/abstracts" height="15230" width="1000" name="ccsc" frameborder="0" scrolling="no">Sorry, you cannot view this iframe.
+Please visit http://ccsc2012.eventbrite.com to register for the conference!</iframe>
+
+
+
+
+
+
+ 
+  </div>
+  
+  <div id="footer"> 
+  
+<?php include("includes/foot.php"); ?>
+     
+
+  </div> 
+  
+  <?php include("includes/borderbot.php"); ?>
+
+
+
+</body>
+</html>
